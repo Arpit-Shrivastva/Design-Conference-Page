@@ -1,0 +1,345 @@
+/* Universal */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+    align-content: center;
+}
+
+/* Navigation */
+
+header {
+    background-color: #45484a;
+    justify-content: space-between;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: -3px;
+}
+
+header section img {
+    width: auto;
+    height: 60px;
+    padding-left: 10px;
+    padding-top: 8px;
+}
+
+.nav-right-heading {
+    margin-left: -650px;
+    padding-top: 20px;
+    color: whitesmoke;
+}
+
+.nav-left {
+    list-style: none;
+}
+
+.nav-left li {
+    padding: 20px 20px;
+}
+
+.nav-left li a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.nav-left li a:hover {
+    color: rgb(171, 171, 229);
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    text-decoration-thickness: 2px;
+    transition: 0.2s ease-out;
+}
+
+/* Hero Section */
+.hero {
+    background: #fff url(../images/corporate.jpg) no-repeat center;
+    background-size: 1350px;
+    height: 500px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.hero h1 {
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.hero h2 {
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 18px;
+}
+
+.hero section {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.hero section button {
+    padding: 8px 20px;
+    border-radius: 5px;
+}
+
+.hero section button:hover {
+    background-color: rgb(94, 94, 95);
+    color: #fff;
+    transition: 0.2s ease-out;
+    cursor: pointer;
+}
+
+/* card */
+
+.card-1 {
+    box-shadow: 8px 9px 10px grey;
+    width: auto;
+    height: 470px;
+    margin: 20px 25px;
+    text-align: center;
+    background-color: rgb(234, 229, 219);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #444;
+}
+
+.card-1 img {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+}
+
+.card-1 h3 {
+    padding: 15px 0;
+}
+
+.card-1 h4 {
+    padding: 20px 0;
+}
+
+.card-1 p {
+    padding: 0 5px;
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: auto;
+    background-color: #26272b;
+    padding: 50px 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.about {
+    list-style: none;
+    margin-left: 30px;
+}
+
+.about h4 {
+    padding-bottom: 20px;
+    color: wheat;
+}
+
+.about p {
+    color: aliceblue;
+    width: 260px;
+}
+
+.services {
+    list-style: none;
+    margin-left: 30px;
+}
+
+.services p {
+    padding-bottom: 20px;
+    color: wheat;
+}
+
+.services li a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.services li a:hover {
+    text-decoration: underline;
+    color: rgb(87, 87, 248);
+    transition: 0.2s ease-out;
+    cursor: pointer;
+}
+
+.company {
+    list-style: none;
+    margin-left: 120px;
+}
+
+.company p {
+    padding-bottom: 20px;
+    color: wheat;
+}
+
+.company li a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.company li a:hover {
+    text-decoration: underline;
+    color: rgb(87, 87, 248);
+    transition: 0.2s ease-out;
+    cursor: pointer;
+}
+
+.contact {
+    list-style: none;
+    margin-left: 120px;
+}
+
+.contact p {
+    padding-bottom: 20px;
+    color: wheat;
+}
+
+.contact li {
+    color: white;
+}
+.contact li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.contact li a:hover{
+    color: blueviolet;
+    cursor: pointer;
+    transition: 0.2s ease-out;
+}
+
+.social-media {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    margin-left: 120px;
+}
+
+.social-media li {
+    display: inline-block;
+    border: 1px solid wheat;
+    padding: 10px 12px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.social-media i {
+    font-size: 20px;
+}
+
+.social-media a:hover {
+    color: goldenrod;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+
+@media screen and (max-width:480px) {
+    /* Navigation */
+
+    header {
+        justify-content: space-between;
+        padding: 20px;
+    }
+
+    header section img {
+        width: auto;
+        height: 80px;
+        padding-left: 5px;
+        padding-top: 15px;
+    }
+
+    .nav-right-heading {
+        margin-left: -200px;
+        width: 50px;
+    }
+
+    .nav-left {
+        flex-direction: column;
+    }
+
+    .nav-left li {
+        margin-bottom: -35px;
+        margin-top: -8px;
+    }
+
+    /* hero */
+
+    section {
+        flex-direction: column;
+    }
+
+    .card-1 {
+        background-color: rgb(234, 229, 219);
+        width: auto;
+        height: 460px;
+        margin: 8px 12px;
+        text-align: center;
+    }
+
+    .card-1 img {
+        width: 300px;
+        height: 300px;
+        border-radius: 150px;
+    }
+
+    .card-1 h3 {
+        padding: 15px 0;
+    }
+
+    .card-1 h4 {
+        padding: 20px 0;
+    }
+
+    .card-1 p {
+        padding: 0 5px;
+    }
+
+    /* footer */
+
+    footer div {
+        flex-direction: column;
+    }
+
+    footer {
+        margin: 10px;
+    }
+
+    .about p {
+        width: 390px;
+        line-height: 25px;
+    }
+
+    .services {
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+
+    .company {
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+
+    .contact {
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+
+    .social-media {
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+
+    .social-media i {
+        font-size: 30px;
+    }
+}
