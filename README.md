@@ -1,5 +1,7 @@
 # Develop a responsive web page for an event management company
 
+Explore the seamless blend of modern design and user-friendly functionality on our Design Conference webpage. Leveraging the power of HTML and CSS, our visually captivating layout is crafted with precision using both grid and flexbox technologies. Immerse yourself in a dynamic user interface that effortlessly guides you through conference details, schedules, and speaker information. With an intuitive combination of grid organization and flex components, our webpage delivers a delightful user experience, ensuring a smooth and engaging journey for all conference attendees. Join us online for an immersive design experience like never before.
+
 ## Context
 
 The Online Design Conference is a two-day event that is conducted by an event management company. The conference is designed for web developers, web designers, and marketing professionals who want to learn about the latest design trends and strategies. The conference features keynote speeches, panel discussions, and workshops.
